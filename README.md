@@ -1,5 +1,7 @@
-# outer/edge Disable CSP Module for Magento 2.4
+# outer/edge Disable CSP Module for Magento 2.4.7+
 
-Allow disable magento Csp module without trowing any error.
+Allows disabling the Magento CSP module in `config.php` without causing errors in dependent modules.
 
+```php
 'Magento_Csp' => 0
+```
