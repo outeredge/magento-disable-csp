@@ -1,1 +1,1 @@
-# magento-disable-csp
+# outer/edge Disable CSP Module for Magento 2.4

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+     <type name="Magento\Framework\Module\Manager">
+        <plugin name="magento_csp_module_status" type="OuterEdge\DisableCsp\Plugin\DisableCsp"/>
+    </type>
+    
+    <virtualType name="Magento\Csp\Helper\CspNonceProvider" type="OuterEdge\DisableCsp\Helper\BypassMagentoCsp"/>
+</config>
