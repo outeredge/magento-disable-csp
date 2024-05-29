@@ -1,6 +1,6 @@
 {
     "name": "outeredge/magento-disable-csp",
-    "description": "Magento Disable CSP Module by outer/edge",
+    "description": "Magento Allow Disable CSP Module by outer/edge",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
